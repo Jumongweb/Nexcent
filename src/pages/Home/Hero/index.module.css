@@ -1,0 +1,33 @@
+.heroContainer{
+    background: rgb(245,247,250);
+}
+
+.lesson{
+    display: flex;
+    justify-content: space-between;
+    background: rgb(245,247,250);
+    padding: 16px 45px;
+}
+
+.lesson > div > button{
+    background: green;
+    padding: 16px;
+    border: none;
+    color: #fff;
+    border-radius: 8px;
+}
+
+.lesson > div > h1{
+    color: #4d4d4d;
+}
+
+.lesson > div > h1 > span{
+    display: block;
+    color: #4caf4f;
+}
+
+.dot{
+    display: flex;
+    justify-content: center;
+    padding: 16px;
+}

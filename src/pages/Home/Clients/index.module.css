@@ -1,0 +1,163 @@
+.client{
+    text-align: center;
+    padding: 16px;
+    color: #585858;
+}
+
+.clientImage{
+    display: flex;
+    justify-content: space-around;
+}
+
+.member{
+    display: flex;
+    justify-content: space-around;
+    margin-bottom: 16px;
+    margin-top: 16px;
+    color: #585858;
+}
+
+.member > div{
+    text-align: center;
+}
+
+.unseen{
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    margin-bottom: 24px;
+}
+
+.unseen > div > img{
+    /*width: 300px;*/
+    /*height: 300px;*/
+    align-items: center;
+    display: flex;
+}
+.unseen > .left{
+    width: 100%;
+}
+.unseen > .right{
+    width: 100%;
+}
+
+.unseen > .right > p{
+    width: 400px;
+}
+.unseen > div > h2 > span{
+    display: block;
+    margin-top: 8px;
+}
+
+.unseen > .right > button{
+    background: #4caf4f;
+    border: none;
+    padding: 8px 16px;
+    border-radius: 8px;
+    color: #fff;
+}
+
+.helpingLocal{
+    display: flex;
+    background: #f5f7fa;
+}
+
+.helpingLocal > .leftHelpingLocal{
+    width: 100%;
+    margin-left: 24px;
+}
+.helpingLocal > .rightHelpingLocal{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    width: 100%;
+}
+
+.helpingLocal > .rightHelpingLocal > .topDiv{
+    display: flex;
+    gap: 16px;
+    width: 300px;
+    justify-content: space-between;
+}
+
+.helpingLocal > .rightHelpingLocal > .topDiv > div{
+    width: 100%;
+}
+.helpingLocal > .rightHelpingLocal > div > div{
+    display: flex;
+    align-items: center;
+    height: 50px;
+}
+.helpingLocal > .rightHelpingLocal > div > div > div > p{
+    margin: 0;
+
+}
+.helpingLocal > .rightHelpingLocal > div > div > div > h3{
+
+}
+
+.helpingLocal > .rightHelpingLocal > .bottomDiv{
+    display: flex;
+    gap: 16px;
+    width: 300px;
+    justify-content: space-between;
+}
+
+.helpingLocal > div > h2 > span{
+    display: block;
+    color: #4caf4f;
+    margin-top: 8px;
+}
+.spanNumber{
+    font-size: 18px;
+}
+
+.spanText{
+    display: block;
+    font-size: 14px;
+}
+
+.timSmithSection{
+    display: flex;
+    align-items: center;
+}
+
+.leftSmithSection{
+    margin-left: 136px;
+}
+.timSmithImgDiv{
+    margin: 0px 36px;
+}
+.rightSmithSection{
+    margin-right: 36px;
+    padding: 0px 30px;
+}
+
+.timSmithLogos{
+    display: flex;
+}
+
+.allCustomer{
+    display: flex;
+    align-items: center;
+}
+.meetAllCustomer{
+    margin-right: 8px;
+}
+.name, .meetAllCustomer{
+    color: #4caf4f;
+}
+.allCustomer > span > img{
+    margin-top: 8px;
+}
+.logoContainer{
+    display: flex;
+    gap: 16px;
+    align-items: center;
+}
+
+.smithLogos{
+    display: flex;
+    justify-content: space-between;
+    width: 500px;
+}
